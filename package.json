@@ -23,10 +23,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && git add -A && git commit -m 'Deploy to GitHub Pages' && git push origin gh-pages"
-  }
-  
-,  
+    "deploy": "npm run build && git add . && git commit -m 'Deploy to GitHub Pages' && git push origin gh-pages"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
