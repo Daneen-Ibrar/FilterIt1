@@ -197,7 +197,7 @@ function App() {
             type="text"
             value={imageUrl}
             onChange={e => setImageUrl(e.target.value)}
-            placeholder="Enter image URL..."
+            placeholder="Enter image url..."
           />
           <button onClick={handleSaveImage}>Save</button>
         </div>
